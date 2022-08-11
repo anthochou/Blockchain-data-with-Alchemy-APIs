@@ -4,6 +4,7 @@ const settings = {
   apiKey: "YOU API KEY HERE", // Replace with your Alchemy API Key. You can find in on your Alchemy dashboard.
   network: Network.ETH_MAINNET, 
 };
+
 const alchemy = new Alchemy(settings);
 
 // Latest Ethereum block number
